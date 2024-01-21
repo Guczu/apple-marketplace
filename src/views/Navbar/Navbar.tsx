@@ -5,9 +5,9 @@ import NavbarLink from './NavbarLink/NavbarLink';
 
 const Navbar = () => {
   return (
-    <nav className='w-full h-[100px] font-primary font-medium flex flex-row justify-between lg:justify-center items-center gap-16 xl:gap-48 p-12 lg:p-0'>
+    <nav className='w-full h-[80px] bg-[#1a1a1a] text-typography-soft font-medium flex flex-row justify-between lg:justify-center items-center gap-16 xl:gap-48 p-12 lg:p-0'>
         <div>
-            <span className='text-[32px] hover:text-[#242424] hover:cursor-pointer'>
+            <span className='text-[32px] hover:cursor-pointer'>
                 Marketplace
             </span>
         </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
 
         <div className='hidden lg:flex'>
-            <PrimaryButton>
+            <PrimaryButton styles="bg-white text-typography-dark hover:bg-white">
                 <span>Wystaw ogłoszenie</span>
             </PrimaryButton>
         </div>

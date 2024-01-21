@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 function App() {
 
   return (
-    <div className="w-full h-screen bg-white">
+    <div className="w-full h-screen bg-white font-primary">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

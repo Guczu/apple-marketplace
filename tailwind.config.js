@@ -10,7 +10,12 @@ export default {
         'main': {
           'soft': '#f2f2f2',
           'lightgray': "#f7f7f7",
+          'nav': "rgba(22, 22, 23, .8)",
         },
+        'typography': {
+          'soft': '#f2f2f2',
+          'dark': '#000000',
+        }
       },
       fontFamily:{
         'primary': ['Poppins']
@@ -33,7 +38,8 @@ export default {
       },
       animation: {
         'bounce-slow': 'bounce-slow 1s linear infinite',
-        'grow-up': 'grow-up .8s linear infinite'
+        'grow-up': 'grow-up .8s linear infinite',
+
       },
       keyframes: {
         'bounce-slow': {
