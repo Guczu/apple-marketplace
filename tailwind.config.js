@@ -38,7 +38,7 @@ export default {
       },
       animation: {
         'bounce-slow': 'bounce-slow 1s linear infinite',
-        'grow-up': 'grow-up .8s linear infinite',
+        'grow-up': 'grow-up .8s ease-in-out',
 
       },
       keyframes: {
