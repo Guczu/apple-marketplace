@@ -12,6 +12,9 @@ export default {
           'lightgray': "#f7f7f7",
         },
       },
+      fontFamily:{
+        'primary': ['Poppins']
+      },
       screens: {
         'sm': '640px',
         // => @media (min-width: 640px) { ... }

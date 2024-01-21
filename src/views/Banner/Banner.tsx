@@ -16,7 +16,7 @@ const Banner = () => {
             </div>
         </div>
 
-        <div className='w-[500px] h-full justify-center items-center hidden xl:flex'>
+        <div className='w-[400px] h-full justify-center items-center hidden xl:flex'>
             <img 
                 src="https://shop.belong.com.au/cdn/shop/files/removal.ai__tmp-64a2306d1c556_0OSCKW_1445x.png?v=1688350868" 
                 alt="iphone image" 
