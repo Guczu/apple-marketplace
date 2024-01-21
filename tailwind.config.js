@@ -10,7 +10,7 @@ export default {
         'main': {
           'soft': '#f2f2f2',
           'lightgray': "#f7f7f7",
-          'nav': "rgba(22, 22, 23, .8)",
+          'nav': "#1a1a1a",
         },
         'typography': {
           'soft': '#f2f2f2',
