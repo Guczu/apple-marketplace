@@ -11,7 +11,7 @@ const Banner = () => {
                 <span className='text-[20px]'>Marketplace to platforma, gdzie pasjonaci Apple mogą swobodnie wystawiać na sprzedaż swoje używane produkty. Dołącz do społeczności, która dzieli miłość do technologii Apple!</span>
 
                 <PrimaryButton styles="w-[10vw] h-[50px]">
-                    <span>Sprzedaj teraz</span>
+                    <span>Przeglądaj ogłoszenia</span>
                 </PrimaryButton>
             </div>
         </div>

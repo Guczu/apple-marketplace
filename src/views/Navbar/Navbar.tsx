@@ -18,7 +18,7 @@ const Navbar = () => {
                     O Nas
                 </NavbarLink>
                 <NavbarLink route="/">
-                    Usługi
+                    Ogłoszenia
                 </NavbarLink>
                 <NavbarLink route="/">
                     Blog
@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <div className='hidden lg:flex'>
             <PrimaryButton styles="bg-white text-typography-dark hover:bg-white">
-                <span>Wystaw ogłoszenie</span>
+                <span>Twoje konto</span>
             </PrimaryButton>
         </div>
 
