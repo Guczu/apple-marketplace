@@ -13,7 +13,7 @@ const Footer = () => {
             <span className='font-medium'>MarketPlace</span>
         </div>
 
-        <div className='w-full flex justify-center items-center text-center flex-wrap xl:pl-20 pb-12 gap-16'>
+        <div className='w-full flex justify-center items-center text-center flex-wrap pb-12 gap-16'>
             <div className='w-[45vw] max-w-[800px] xl:h-[120px] flex flex-col flex-wrap justify-center items-center xl:justify-start xl:items-start'>
                 {footerLinks.map((link, index) => {
                     return (

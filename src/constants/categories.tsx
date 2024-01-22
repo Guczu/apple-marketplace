@@ -8,27 +8,27 @@ import { TbDeviceAirpods } from "react-icons/tb";
 export const categories = [
     {
         name: "Mac",
-        routeLink: "/",
+        routeLink: "/browse/mac",
         icon: <MdLaptopMac className="w-7 h-7"/>
     },
     {
         name: "iPad",
-        routeLink: "/",
+        routeLink: "/browse/ipad",
         icon: <FaTabletAlt className="w-7 h-7"/>
     },
     {
         name: "iPhone",
-        routeLink: "/",
+        routeLink: "/browse/iphone",
         icon: <HiOutlineDevicePhoneMobile className="w-7 h-7"/>
     },
     {
         name: "Watch",
-        routeLink: "/",
+        routeLink: "/browse/watch",
         icon: <IoWatchOutline className="w-7 h-7"/>
     },
     {
         name: "AirPods",
-        routeLink: "/",
+        routeLink: "/browse/airpods",
         icon: <TbDeviceAirpods className="w-7 h-7"/>
     }
 ];

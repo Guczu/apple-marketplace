@@ -2,14 +2,15 @@ import React from 'react'
 import { RxHamburgerMenu } from "react-icons/rx";
 import PrimaryButton from '../../components/PrimaryButton/PrimaryButton';
 import NavbarLink from './NavbarLink/NavbarLink';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className='w-full h-[80px] bg-main-nav text-typography-soft font-medium flex flex-row justify-between lg:justify-center items-center gap-16 xl:gap-48 p-12 lg:p-0'>
         <div>
-            <span className='text-[32px] hover:cursor-pointer'>
+            <Link to="/" className='text-[32px] hover:cursor-pointer'>
                 Marketplace
-            </span>
+            </Link>
         </div>
 
         <div className='hidden lg:flex'>
@@ -17,7 +18,7 @@ const Navbar = () => {
                 <NavbarLink route="/">
                     O Nas
                 </NavbarLink>
-                <NavbarLink route="/">
+                <NavbarLink route="/browse">
                     Ogłoszenia
                 </NavbarLink>
                 <NavbarLink route="/">
