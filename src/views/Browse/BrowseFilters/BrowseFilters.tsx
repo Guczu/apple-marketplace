@@ -25,7 +25,7 @@ const BrowseFilters = () => {
             </PrimaryButton>
         </div>
         <div className='w-full flex flex-col lg:flex-row gap-4 justify-center'>
-            <SelectList id="product" styles="w-full lg:w-1/4 bg-white">
+            <SelectList id="category" styles="w-full lg:w-1/6 bg-white">
                 <>
                     <option value="Mac">Mac</option>
                     <option value="iPad">iPad</option>
@@ -34,9 +34,14 @@ const BrowseFilters = () => {
                     <option value="AirPods">AirPods</option>
                 </>
             </SelectList>
-            <PrimaryInput styles="w-full lg:w-1/4" placeholder="Od" id="price-from" />
-            <PrimaryInput styles="w-full lg:w-1/4" placeholder="Do" id="price-to" />
-            <SelectList id="condition" styles="w-full lg:w-1/4 bg-white">
+            <SelectList id="product" styles="w-full lg:w-2/6 bg-white">
+                <>
+                    <option value="model">Model</option>
+                </>
+            </SelectList>
+            <PrimaryInput styles="w-full lg:w-1/6" placeholder="Od" id="price-from" />
+            <PrimaryInput styles="w-full lg:w-1/6" placeholder="Do" id="price-to" />
+            <SelectList id="condition" styles="w-full lg:w-1/6 bg-white">
                 <>
                     <option value="Używany">Używany</option>
                     <option value="Nowy">Nowy</option>
