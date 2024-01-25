@@ -5,7 +5,7 @@ import BrowseProductTile from '../BrowseProductTile/BrowseProductTile'
 const BrowseProducts = () => {
   return (
     <>
-        <div className='w-full flex justify-between'>
+        <div className='w-full flex flex-col lg:flex-row justify-between gap-4 lg:gap-0'>
             <span className='text-[18px] font-medium'>
                 Znaleziono X ogłoszeń
             </span>

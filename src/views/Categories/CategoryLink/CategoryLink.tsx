@@ -12,7 +12,7 @@ const CategoryLink = ({ name, routeLink, icon }: Props) => {
     <NavLink 
       to={routeLink} 
       className={({ isActive }) => 
-        isActive ? "flex flex-col justify-center items-center hover:cursor-pointer w-[64px] h-[64px] rounded-xl bg-white shadow-primary" : "flex flex-col justify-center items-center hover:cursor-pointer w-[64px] h-[64px] rounded-xl hover:bg-white transition duration-400 ease-in-out hover:shadow-primary"
+        isActive ? "flex flex-col justify-center items-center hover:cursor-pointer w-[90px] h-[90px] rounded-xl bg-white shadow-primary" : "flex flex-col justify-center items-center hover:cursor-pointer w-[90px] h-[90px] rounded-xl hover:bg-white transition duration-400 ease-in-out hover:shadow-primary"
       }
 
     >

@@ -7,9 +7,9 @@ const Banner = () => {
     <div className='w-full lg:h-[600px] bg-[#f2f2f2] flex justify-center items-center 2xl:gap-36'>
         <div className='flex justify-center items-center'>
             <div className='w-full lg:w-[700px] flex flex-col justify-center items-center xl:items-start gap-8 p-8 text-justify'>
-                <span className='font-bold text-[42px] text-left'>Odkryj Marketplace - ogłoszenia produktów Apple</span>
+                <span className='font-bold text-[24px] lg:text-[42px] text-left'>Odkryj Marketplace - ogłoszenia produktów Apple</span>
 
-                <span className='text-[26px]'>Marketplace to platforma, gdzie pasjonaci Apple mogą swobodnie wystawiać na sprzedaż swoje używane produkty. Dołącz do społeczności, która dzieli miłość do technologii Apple!</span>
+                <span className='lg:text-[26px]'>Marketplace to platforma, gdzie pasjonaci Apple mogą swobodnie wystawiać na sprzedaż swoje używane produkty. Dołącz do społeczności, która dzieli miłość do technologii Apple!</span>
 
                 <Link to="/browse">
                     <PrimaryButton styles='w-[10vw] h-[55px]' animation={true}>
