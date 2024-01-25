@@ -4,6 +4,7 @@ import { footerLinks } from '../../constants/footer';
 import FooterLink from './FooterLink/FooterLink';
 import { GrSend } from "react-icons/gr";
 import PrimaryButton from '../../components/PrimaryButton/PrimaryButton';
+import PrimaryInput from '../../components/PrimaryInput/PrimaryInput';
 
 const Footer = () => {
   return (
@@ -26,13 +27,9 @@ const Footer = () => {
                 <span className='text-[20px]'>
                     Zapisz się do Newslettera
                 </span>
-                <div className='flex gap-4'>
-                    <input 
-                        type="text" 
-                        className='p-2 rounded-lg text-typography-dark focus:outline-none'
-                        placeholder='Wpisz adres e-mail'
-                    />
-                    <PrimaryButton styles="bg-main-soft text-typography-dark hover:bg-white w-min">
+                <div className='flex gap-4 flex-col lg:flex-row'>
+                    <PrimaryInput placeholder='Wpisz adres e-mail' id="newsletter"/>
+                    <PrimaryButton styles="bg-main-soft text-typography-dark hover:bg-white w-full lg:w-min flex justify-center">
                         <GrSend className='w-6 h-6'/>
                     </PrimaryButton>
                 </div>

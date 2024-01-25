@@ -5,7 +5,7 @@ import ProductTile from './ProductTile/ProductTile'
 const PromotedProducts = () => {
   return (
     <section className='container flex flex-col mx-auto justify-center pb-24'>
-        <Header>
+        <Header styles="pt-12 pb-6">
             Promowane ogłoszenia
         </Header>
 

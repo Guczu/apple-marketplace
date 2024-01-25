@@ -3,7 +3,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const ProductTile = () => {
   return (
-    <div className='w-[280px] h-[350px] rounded-sm flex flex-col justify-center shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] hover:cursor-pointer'>
+    <div className='w-[280px] h-[350px] rounded-sm flex flex-col justify-center shadow-primary hover:cursor-pointer'>
         <div className='w-full h-3/5 rounded-t-sm'>
             <img 
                 src="https://ae01.alicdn.com/kf/Sbe7a3cc6428946508be6f9a32945dfcad/Used-Original-Apple-iPhone-5-Unlocked-Cell-Phone-iOS-16-32-64GB-Silver-Black-For-Option.jpg" 
