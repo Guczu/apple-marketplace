@@ -2,6 +2,7 @@ import PageLayout from "./components/PageLayout/PageLayout"
 import Browse from "./views/Browse/Browse"
 import Home from "./views/Home/Home"
 import { Routes, Route } from 'react-router-dom'
+import Register from "./views/Register/Register"
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/browse" element={<Browse />} />
           <Route path="/browse/:product" element={<Browse />} />
+        </Route>
+        <Route>
+          <Route path="/register" element={<Register />} />
         </Route>
       </Routes>
     </div>
