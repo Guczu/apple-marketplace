@@ -6,9 +6,9 @@ const ProductTile = () => {
     <div className='w-[280px] h-[350px] rounded-lg flex flex-col justify-center shadow-primary hover:cursor-pointer'>
         <div className='w-full h-3/5 rounded-t-lg'>
             <img 
-                src="https://ae01.alicdn.com/kf/Sbe7a3cc6428946508be6f9a32945dfcad/Used-Original-Apple-iPhone-5-Unlocked-Cell-Phone-iOS-16-32-64GB-Silver-Black-For-Option.jpg" 
+                src="https://luxtrade.pl/4756-large_default/apple-iphone-14-czarny.jpg" 
                 alt="product photo" 
-                className='w-full h-full object-fill rounded-t-lg'
+                className='w-full h-full object-contain rounded-t-lg'
             />
         </div>
         <div className='relative w-full h-2/5 flex flex-col p-4 gap-2'>

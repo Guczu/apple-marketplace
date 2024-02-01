@@ -5,9 +5,9 @@ const BrowseProductTile = () => {
     <div className='w-full sm:h-[200px] flex flex-col sm:flex-row rounded-sm p-2 hover:cursor-pointer shadow-primary'>
         <div className='w-full sm:w-3/5 flex justify-center items-center lg:w-[300px] h-full'>
             <img 
-                src="https://ae01.alicdn.com/kf/Sbe7a3cc6428946508be6f9a32945dfcad/Used-Original-Apple-iPhone-5-Unlocked-Cell-Phone-iOS-16-32-64GB-Silver-Black-For-Option.jpg" 
+                src="https://luxtrade.pl/4756-large_default/apple-iphone-14-czarny.jpg" 
                 alt="product photo" 
-                className='w-full sm:max-w-[250px] h-full object-fit rounded-t-sm'
+                className='w-full sm:max-w-[250px] h-full object-contain rounded-t-sm'
             />
         </div>
         <div className='w-2/5 lg:w-full relative p-4 flex flex-col gap-2'>

@@ -1,6 +1,7 @@
 import React from 'react'
 import PrimaryInput from '../../../components/PrimaryInput/PrimaryInput'
 import BrowseProductTile from '../BrowseProductTile/BrowseProductTile'
+import SelectList from '../../../components/SelectList/SelectList'
 
 const BrowseProducts = () => {
   return (
@@ -10,7 +11,13 @@ const BrowseProducts = () => {
                 Znaleziono X ogłoszeń
             </span>
             
-            <PrimaryInput placeholder='Sortuj' id="sort"/>
+            <SelectList id="sort" styles="w-full lg:w-1/6 bg-white">
+                <>
+                    <option value="Używany">Od najnowszych</option>
+                    <option value="Używany">Cena: od najwyższej</option>
+                    <option value="Nowy">Cena: od najniższej</option>
+                </>
+            </SelectList>
         </div>
         <BrowseProductTile />
         <BrowseProductTile />
