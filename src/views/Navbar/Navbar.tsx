@@ -21,10 +21,10 @@ const Navbar = () => {
                 <NavbarLink route="/browse">
                     Ogłoszenia
                 </NavbarLink>
-                <NavbarLink route="/">
+                <NavbarLink route="/login">
                     Blog
                 </NavbarLink>
-                <NavbarLink route="/">
+                <NavbarLink route="/register">
                     Kontakt
                 </NavbarLink>
             </ul>
