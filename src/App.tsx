@@ -4,6 +4,7 @@ import Home from "./views/Home/Home"
 import { Routes, Route } from 'react-router-dom'
 import Register from "./views/Register/Register"
 import Login from "./views/Login/Login"
+import Account from "./views/Account/Account"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/browse" element={<Browse />} />
           <Route path="/browse/:product" element={<Browse />} />
+          <Route path="/account" element={<Account />} />
         </Route>
         <Route>
           <Route path="/register" element={<Register />} />

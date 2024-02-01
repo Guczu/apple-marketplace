@@ -31,9 +31,11 @@ const Navbar = () => {
         </div>
 
         <div className='hidden lg:flex'>
-            <PrimaryButton styles="bg-white text-typography-dark hover:bg-white">
-                <span>Twoje konto</span>
-            </PrimaryButton>
+            <Link to="/account">
+                <PrimaryButton styles="bg-white text-typography-dark hover:bg-white">
+                    <span>Twoje konto</span>
+                </PrimaryButton>
+            </Link>
         </div>
 
         <div className='block lg:hidden'>
