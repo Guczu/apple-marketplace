@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Banner = () => {
   return (
-    <div className='w-full lg:h-[600px] bg-[#f2f2f2] flex justify-center items-center 2xl:gap-36'>
+    <section className='w-full lg:h-[600px] bg-[#f2f2f2] flex justify-center items-center 2xl:gap-36'>
         <div className='flex justify-center items-center'>
             <div className='w-full lg:w-[700px] flex flex-col justify-center items-center xl:items-start gap-8 p-8 text-justify'>
                 <span className='font-bold text-[24px] lg:text-[42px] text-left'>Odkryj Marketplace - ogłoszenia produktów Apple</span>
@@ -26,7 +26,7 @@ const Banner = () => {
                 className='w-[400px]'
             />
         </div>
-    </div>
+    </section>
   )
 }
 

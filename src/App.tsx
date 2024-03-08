@@ -6,6 +6,7 @@ import Register from "./views/Register/Register"
 import Login from "./views/Login/Login"
 import Account from "./views/Account/Account"
 import AddPost from "./views/AddPost/AddPost"
+import PostDetails from "./views/PostDetails/PostDetails"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/browse/:product" element={<Browse />} />
           <Route path="/account" element={<Account />} />
           <Route path="/add" element={<AddPost />} />
+          <Route path="/details/:product" element={<PostDetails />} />
         </Route>
         <Route>
           <Route path="/register" element={<Register />} />
