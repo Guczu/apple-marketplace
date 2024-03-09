@@ -13,7 +13,7 @@ const ProductTile = () => {
         </div>
         <div className='relative w-full h-2/5 flex flex-col p-4 gap-2'>
             <div className='absolute right-0 top-0 p-5'>
-                <FaRegHeart className='w-5 h-5 hover:text-red-600' />
+                <FaRegHeart className='w-5 h-5 hover:text-red-600 hover:cursor-pointer' />
             </div>
             <div className='flex flex-col w-3/4'>
                 <span className='text-[16px] truncate '>Product Name</span>
