@@ -7,6 +7,7 @@ import Login from "./views/Login/Login"
 import Account from "./views/Account/Account"
 import AddPost from "./views/AddPost/AddPost"
 import PostDetails from "./views/PostDetails/PostDetails"
+import ProtectedRoute from "./guards/ProtectedRoute"
 
 function App() {
 
@@ -17,7 +18,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/browse" element={<Browse />} />
           <Route path="/browse/:product" element={<Browse />} />
-          <Route path="/account" element={<Account />} />
+          <Route element={<ProtectedRoute />}>
+              <Route path="/account" element={<Account />} />
+          </Route>
           <Route path="/add" element={<AddPost />} />
           <Route path="/details/:product" element={<PostDetails />} />
         </Route>

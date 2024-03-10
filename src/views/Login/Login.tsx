@@ -1,9 +1,20 @@
 import PrimaryInput from '../../components/PrimaryInput/PrimaryInput'
 import PrimaryButton from '../../components/PrimaryButton/PrimaryButton'
 import loginPhoto from '../../assets/login.webp'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { loginUser } from '../../services/users.service'
 
 const Login = () => {
+  const navigate = useNavigate();
+
+  const login = async () => {
+    const loggedIn = await loginUser({email: 'emailtest@example.com', password: 'testpassword'});
+    console.log(loggedIn)
+    if (loggedIn && loggedIn.status === 200) {
+      navigate('/');
+    }
+  }
+
   return (
     <section className='w-screen h-full flex justify-center items-center'> 
         <img 
@@ -18,7 +29,7 @@ const Login = () => {
             <Link to="/forgot-password">
                 <span className='font-medium'>Nie pamiętasz hasła?</span>
             </Link>
-            <PrimaryButton styles="w-full">
+            <PrimaryButton styles="w-full" onClick={() => login()}>
                 <span>Zaloguj się</span>
             </PrimaryButton>
         </div>
